@@ -14,8 +14,6 @@ This project aims to detect toxic or hate speech in comments using various techn
 | `a7.py`              | Python script version of the notebook. |
 | `app.py`             | Streamlit web application to classify input text as toxic or non-toxic. |
 | `lora_distilbert_cpu.pt` | Saved LoRA adapter weights after fine-tuning. |
-| `train.csv`          | Jigsaw dataset's training file. |
-| `test.csv`           | Jigsaw dataset's test file. |
 
 ---
 
@@ -25,6 +23,8 @@ This project aims to detect toxic or hate speech in comments using various techn
 - **Jigsaw Toxic Comment Classification dataset**
 - Each comment is labeled with multiple toxicity types (toxic, insult, obscene, etc.)
 - We convert it to **binary classification**: toxic vs non-toxic.
+- Dataset link : https://github.com/praj2408/Jigsaw-Toxic-Comment-Classification/tree/main/data_given
+  
 
 ### 📌 2. Libraries Required
 ```bash
